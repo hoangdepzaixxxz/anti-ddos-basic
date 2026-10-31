@@ -1,0 +1,24 @@
+{
+  "name": "game-port-shield-app",
+  "version": "1.0.0",
+  "description": "Game Port Shield & Management Tool - Desktop Application GUI for TCP Proxy Defense & Firewall Management",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "app": "electron .",
+    "test-server": "node test/mock-game-server.js"
+  },
+  "keywords": [
+    "anti-ddos",
+    "tcp-proxy",
+    "firewall",
+    "game-server",
+    "electron",
+    "desktop-app"
+  ],
+  "author": "Antigravity",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^45.2.1"
+  }
+}
