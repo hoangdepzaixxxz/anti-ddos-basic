@@ -16,3 +16,4 @@ run.sh
 Program.cs
 app.manifest
 *.exe.config
+redist/

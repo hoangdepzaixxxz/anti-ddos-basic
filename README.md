@@ -4,13 +4,17 @@ Phần mềm bảo vệ máy chủ game, chuyển tiếp cổng TCP và chống 
 
 ---
 
-### 1. Cài Đặt Lên Màn Hình Chính (Desktop)
+### 1. Hướng Dẫn Tải & Chạy Phần Mềm
 
-1. Tải bộ cài đặt: 👉 **[Tải xuống GamePortShield-Setup.exe](https://github.com/hoangdepzaixxxz/anti-ddos-basic/raw/main/GamePortShield-Setup.exe)** *(Hoặc click trực tiếp file `GamePortShield-Setup.exe` trên danh sách repository).*
-2. Mở file **`GamePortShield-Setup.exe`**.
-3. Chọn **Yes** khi Windows xuất hiện bảng cấp quyền Administrator (UAC).
-4. Nhấn **Cài đặt**. Trình cài đặt sẽ tự động tạo biểu tượng ngoài **Bàn làm việc (Desktop)** và Start Menu.
-5. Cài xong, phần mềm sẽ mở ra cửa sổ ứng dụng Desktop riêng biệt (không dùng trình duyệt).
+Ứng dụng hỗ trợ 100% mọi phiên bản Windows (Windows Server 2012 / 2012 R2, Windows Server 2016 - 2025, Windows 7, 8, 10, 11):
+
+- ⚡ **Cách 1: Bản Chạy Ngay (Portable - Khuyên Dùng Cho VPS / Server)**
+  1. Tải file: 👉 **[GamePortShield.exe (Bản Portable)](https://github.com/hoangdepzaixxxz/anti-ddos-basic/raw/main/GamePortShield.exe)**
+  2. Double-click file `GamePortShield.exe` là app mở lên chạy ngay lập tức, không cần cài đặt!
+
+- 💻 **Cách 2: Bản Cài Đặt Vào Máy (Tạo biểu tượng Desktop)**
+  1. Tải bộ cài: 👉 **[GamePortShield-Setup.exe](https://github.com/hoangdepzaixxxz/anti-ddos-basic/raw/main/GamePortShield-Setup.exe)**
+  2. Chạy file cài đặt, nhấn **Cài đặt**. Trình cài đặt sẽ tạo biểu tượng ngoài **Bàn làm việc (Desktop)** và Start Menu.
 
 ---
 
