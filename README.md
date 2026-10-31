@@ -1,44 +1,36 @@
-# 🛡️ Game Port Shield & Management Tool
+# 🛡️ Game Port Shield - Hướng Dẫn Sử Dụng
 
-**Game Port Shield** là công cụ Desktop chuyên dụng để bảo vệ các máy chủ game trước các cuộc tấn công DDoS quy mô vừa và nhỏ, spam flood kết nối TCP. Ứng dụng tích hợp tự động phát hiện hệ điều hành (Windows/Linux), điều khiển tường lửa cấp Kernel/Hệ điều hành, tự động Auto-Ban chống spam kết nối và cung cấp giao diện quản trị trực quan.
-
----
-
-## 📥 Tải Về Phiên Bản Chính Thức (File .EXE)
-
-Tải file chạy trực tiếp (Portable) dành cho Windows, không cần cài đặt NodeJS hay môi trường phức tạp:
-
-👉 **[Tải xuống GamePortShield.exe (v1.0.0)](https://github.com/hoangdepzaixxxz/anti-ddos-basic/releases/download/v1.0.0/GamePortShield.exe)**
-
-*(Bản phát hành chính thức: [Releases v1.0.0](https://github.com/hoangdepzaixxxz/anti-ddos-basic/releases/tag/v1.0.0))*
+Phần mềm bảo vệ máy chủ game, chuyển tiếp cổng TCP và chống spam kết nối tự động.
 
 ---
 
-## 🚀 Tính Năng Nổi Bật
+### 1. Tải Về & Khởi Chạy
 
-1. **Proxy TCP Hiệu Năng Cao**:
-   - Cổng công khai mặc định: `14445` (Người chơi bên ngoài kết nối vào).
-   - Cổng Game Server thật: `34567` tại `127.0.0.1` (Chạy ngầm nội bộ).
-   - Cho phép tùy chỉnh Cổng và IP Game Server đích trực tiếp ngay trên giao diện Tab "Cài Đặt".
-
-2. **Tự Động Can Thiệp Tường Lửa Hệ Thống**:
-   - Tự động nhận diện Windows (`netsh advfirewall`) hoặc Linux (`iptables`).
-   - Tự động kích hoạt quyền Administrator khi khởi chạy trên Windows.
-
-3. **Cơ Chế Auto-Ban Chống Spam (Rate Limiting)**:
-   - Cửa sổ trượt 30 giây: Nếu 1 IP kết nối vượt quá 10 lần sẽ tự động dán nhãn **SPAMMER**.
-   - Khóa IP trên tường lửa trong 5 phút, sau 5 phút tự động gỡ chặn.
-
-4. **Giao Diện Quản Trị Trực Quan**:
-   - Giám sát danh sách IP đang kết nối theo thời gian thực.
-   - Thao tác Chặn / Mở khóa thủ công cho từng IP.
-   - Xem nhật ký hoạt động của tường lửa trực tiếp trên màn hình console.
+1. Tải file chạy trực tiếp: 👉 **[Tải xuống GamePortShield.exe](https://github.com/hoangdepzaixxxz/anti-ddos-basic/releases/download/v1.0.0/GamePortShield.exe)**
+2. Click đúp vào file **`GamePortShield.exe`**.
+3. Khi Windows xuất hiện bảng hỏi quyền (UAC), chọn **Yes** để phần mềm có quyền cấu hình tường lửa Windows.
 
 ---
 
-## ⚙️ Hướng Dẫn Sử Dụng
+### 2. Cài Đặt Cổng & IP Game Server
 
-1. Tải file **`GamePortShield.exe`** từ đường dẫn trên.
-2. Click đúp để khởi chạy (chọn **Yes** khi Windows hỏi quyền Administrator UAC để phần mềm có thể điều khiển tường lửa).
-3. Vào tab **"Cài đặt Cổng & Mạng"** để chỉnh cổng theo mong muốn của bạn.
-4. Bấm **"Lưu Cài Đặt & Áp Dụng Ngay"**.
+1. Chọn tab **"Cài đặt Cổng & Mạng"** trên giao diện:
+   - **Cổng Công Khai (Public Port)**: Cổng đưa cho người chơi kết nối vào (mặc định: `14445`).
+   - **IP Game Server Thật**: Địa chỉ IP game server đang chạy (mặc định `127.0.0.1` nếu cùng máy).
+   - **Cổng Game Server Thật**: Cổng nội bộ của game server (mặc định: `34567`).
+2. Bấm nút **"Lưu Cài Đặt & Áp Dụng Ngay"**.
+
+---
+
+### 3. Giám Sát & Quản Lý IP
+
+- Xem danh sách người chơi đang kết nối tại tab **"Giám sát IP"**.
+- Nếu phát hiện IP spam quá 10 kết nối trong 30 giây, hệ thống sẽ tự động dán nhãn **SPAMMER** và khóa IP trên tường lửa 5 phút.
+- Bạn có thể chủ động bấm **"Chặn"** hoặc **"Mở khóa"** bất kỳ IP nào trên bảng danh sách.
+
+---
+
+### 4. Cập Nhật Khi Có Phiên Bản Mới
+
+- Khi có bản cập nhật mới, nút **"Cập nhật"** ở góc trên bên phải sẽ xuất hiện **dấu chấm đỏ**.
+- Bấm vào nút đó để tải phiên bản mới nhất về máy.
