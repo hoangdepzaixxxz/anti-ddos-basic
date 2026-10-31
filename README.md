@@ -1,16 +1,16 @@
 # 🛡️ Game Port Shield - Hướng Dẫn Sử Dụng
 
-Phần mềm bảo vệ máy chủ game, chuyển tiếp cổng TCP và chống spam kết nối tự động. Phiên bản siêu nhẹ Native Engine chỉ **~240 KB** (không cần cài thêm bất kỳ runtime nào).
+Phần mềm bảo vệ máy chủ game, chuyển tiếp cổng TCP và chống spam kết nối tự động. Ứng dụng Desktop độc lập chuyên nghiệp.
 
 ---
 
-### 1. Tải Về & Khởi Chạy Lần Đầu
+### 1. Cài Đặt Lên Màn Hình Chính (Desktop)
 
-1. Tải file: 👉 **[Tải xuống GamePortShield-Setup.exe (~240 KB)](https://github.com/hoangdepzaixxxz/anti-ddos-basic/raw/main/GamePortShield-Setup.exe)** *(Hoặc click trực tiếp file `GamePortShield.exe` trên danh sách repository).*
+1. Tải bộ cài đặt: 👉 **[Tải xuống GamePortShield-Setup.exe](https://github.com/hoangdepzaixxxz/anti-ddos-basic/raw/main/GamePortShield-Setup.exe)** *(Hoặc click trực tiếp file `GamePortShield-Setup.exe` trên danh sách repository).*
 2. Mở file **`GamePortShield-Setup.exe`**.
 3. Chọn **Yes** khi Windows xuất hiện bảng cấp quyền Administrator (UAC).
-4. Ứng dụng sẽ **tự động tạo biểu tượng trên Bàn làm việc (Desktop)** ngay lập tức và mở giao diện ứng dụng.
-5. Những lần sau, bạn chỉ cần click vào biểu tượng trên Desktop để sử dụng.
+4. Nhấn **Cài đặt**. Trình cài đặt sẽ tự động tạo biểu tượng ngoài **Bàn làm việc (Desktop)** và Start Menu.
+5. Cài xong, phần mềm sẽ mở ra cửa sổ ứng dụng Desktop riêng biệt (không dùng trình duyệt).
 
 ---
 
@@ -32,7 +32,7 @@ Phần mềm bảo vệ máy chủ game, chuyển tiếp cổng TCP và chống 
 
 ---
 
-### 4. Tự Động Cập Nhật Trong 1 Click (In-App Auto Update)
+### 4. Tự Động Cập Nhật 1-Click (In-App Auto Update)
 
 - Khi có bản cập nhật mới, nút **"Cập nhật"** ở góc trên bên phải sẽ sáng **dấu chấm đỏ**.
-- **Chỉ cần bấm nút "Cập nhật"**: Phần mềm sẽ **tự động tải bản mới ngầm về máy trong 1 giây và tự khởi chạy bản cài đặt mới ngay lập tức**, không cần bạn phải mở trình duyệt hay thao tác thủ công!
+- **Chỉ cần bấm nút "Cập nhật"**: Phần mềm sẽ **tự động tải ngầm bản mới về máy và tự bật bảng cài đặt lên luôn**, bạn không cần mở trình duyệt hay tải thủ công!
