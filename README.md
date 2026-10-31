@@ -1,16 +1,16 @@
 # 🛡️ Game Port Shield - Hướng Dẫn Sử Dụng
 
-Phần mềm bảo vệ máy chủ game, chuyển tiếp cổng TCP và chống spam kết nối tự động.
+Phần mềm bảo vệ máy chủ game, chuyển tiếp cổng TCP và chống spam kết nối tự động. Phiên bản siêu nhẹ Native Engine chỉ **~240 KB** (không cần cài thêm bất kỳ runtime nào).
 
 ---
 
-### 1. Cài Đặt Ứng Dụng (Lên Bàn Làm Việc / Desktop)
+### 1. Tải Về & Cài Đặt (Tự Động Xuất Hiện Trên Bàn Làm Việc / Desktop)
 
-1. Tải bộ cài đặt: 👉 **[Tải xuống GamePortShield-Setup.exe](https://github.com/hoangdepzaixxxz/anti-ddos-basic/raw/main/GamePortShield-Setup.exe)** *(hoặc file `GamePortShield.exe` trên danh sách file repo / Releases).*
-2. Mở file cài đặt **`GamePortShield-Setup.exe`**.
-3. Khi Windows xuất hiện bảng hỏi quyền (UAC), chọn **Yes** để phần mềm có quyền cấu hình tường lửa.
-4. Nhấn **Cài đặt** (Install). Trình cài đặt sẽ tự động tạo biểu tượng **GamePortShield** ngay trên **Bàn làm việc (Desktop)** và Start Menu của bạn.
-5. Sau khi cài xong, bạn chỉ cần click đúp vào biểu tượng trên Desktop để sử dụng!
+1. Tải file: 👉 **[Tải xuống GamePortShield-Setup.exe (~240 KB)](https://github.com/hoangdepzaixxxz/anti-ddos-basic/raw/main/GamePortShield-Setup.exe)** *(Hoặc click trực tiếp file `GamePortShield.exe` trên danh sách repository).*
+2. Mở file **`GamePortShield-Setup.exe`**.
+3. Chọn quyền Administrator (Yes) khi Windows xuất hiện thông báo UAC.
+4. Ứng dụng sẽ **tự động tạo biểu tượng trên Bàn làm việc (Desktop)** ngay lập tức và mở giao diện ứng dụng.
+5. Những lần sau, bạn chỉ cần click vào biểu tượng trên Desktop để sử dụng.
 
 ---
 

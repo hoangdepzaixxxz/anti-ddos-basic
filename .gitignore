@@ -13,3 +13,6 @@ src/
 test/
 run.bat
 run.sh
+Program.cs
+app.manifest
+*.exe.config
