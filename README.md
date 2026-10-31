@@ -6,7 +6,7 @@ Phần mềm bảo vệ máy chủ game, chuyển tiếp cổng TCP và chống 
 
 ### 1. Tải Về & Khởi Chạy
 
-1. Tải file chạy trực tiếp: 👉 **[Tải xuống GamePortShield.exe](https://github.com/hoangdepzaixxxz/anti-ddos-basic/releases/download/v1.0.0/GamePortShield.exe)**
+1. Tải file chạy trực tiếp: 👉 **[Tải xuống GamePortShield.exe](https://github.com/hoangdepzaixxxz/anti-ddos-basic/raw/main/GamePortShield.exe)** *(Hoặc click trực tiếp vào file `GamePortShield.exe` ở danh sách file bên trên).*
 2. Click đúp vào file **`GamePortShield.exe`**.
 3. Khi Windows xuất hiện bảng hỏi quyền (UAC), chọn **Yes** để phần mềm có quyền cấu hình tường lửa Windows.
 
