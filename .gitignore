@@ -1,5 +1,14 @@
 node_modules/
+dist/
 .DS_Store
 *.log
 config.json
-
+main.js
+preload.js
+server.js
+package.json
+package-lock.json
+src/
+test/
+run.bat
+run.sh
