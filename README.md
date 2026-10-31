@@ -4,11 +4,11 @@ Phần mềm bảo vệ máy chủ game, chuyển tiếp cổng TCP và chống 
 
 ---
 
-### 1. Tải Về & Cài Đặt (Tự Động Xuất Hiện Trên Bàn Làm Việc / Desktop)
+### 1. Tải Về & Khởi Chạy Lần Đầu
 
 1. Tải file: 👉 **[Tải xuống GamePortShield-Setup.exe (~240 KB)](https://github.com/hoangdepzaixxxz/anti-ddos-basic/raw/main/GamePortShield-Setup.exe)** *(Hoặc click trực tiếp file `GamePortShield.exe` trên danh sách repository).*
 2. Mở file **`GamePortShield-Setup.exe`**.
-3. Chọn quyền Administrator (Yes) khi Windows xuất hiện thông báo UAC.
+3. Chọn **Yes** khi Windows xuất hiện bảng cấp quyền Administrator (UAC).
 4. Ứng dụng sẽ **tự động tạo biểu tượng trên Bàn làm việc (Desktop)** ngay lập tức và mở giao diện ứng dụng.
 5. Những lần sau, bạn chỉ cần click vào biểu tượng trên Desktop để sử dụng.
 
@@ -32,7 +32,7 @@ Phần mềm bảo vệ máy chủ game, chuyển tiếp cổng TCP và chống 
 
 ---
 
-### 4. Cập Nhật Khi Có Phiên Bản Mới
+### 4. Tự Động Cập Nhật Trong 1 Click (In-App Auto Update)
 
-- Khi có bản cập nhật mới, nút **"Cập nhật"** ở góc trên bên phải sẽ xuất hiện **dấu chấm đỏ**.
-- Bấm vào nút đó để tải phiên bản mới nhất về máy.
+- Khi có bản cập nhật mới, nút **"Cập nhật"** ở góc trên bên phải sẽ sáng **dấu chấm đỏ**.
+- **Chỉ cần bấm nút "Cập nhật"**: Phần mềm sẽ **tự động tải bản mới ngầm về máy trong 1 giây và tự khởi chạy bản cài đặt mới ngay lập tức**, không cần bạn phải mở trình duyệt hay thao tác thủ công!
