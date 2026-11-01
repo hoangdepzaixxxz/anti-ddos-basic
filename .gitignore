@@ -10,6 +10,7 @@ server.js
 package.json
 package-lock.json
 src/
+core/
 test/
 run.bat
 run.sh
